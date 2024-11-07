@@ -1,0 +1,64 @@
+.font-serif{
+  font-family: "Playfair Display", serif;
+}
+
+.sidebar-item{
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+
+.sidebar-item span{
+  margin-left: 0.5rem;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card{
+  width: 30%;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.no-border th, .no-border td {
+  border: none !important;
+}
+
+.secondary{
+  background-color: #f8f9fa;
+  height: 90.2vh;
+}
+
+.white{
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.table {
+  background-color: transparent; /* Makes background transparent */
+}
+
+.table thead{
+  border-bottom: #e6e6e6e7;
+}
+
+.table th, .table td {
+  padding: 10px; /* Adjust padding */
+}
+
+.leads h4{
+  margin: 0;
+  margin-top: 1%;
+}
+
+.no-arrow-dropdown .dropdown-toggle::after {
+  display: none !important;
+}
+
+.sidebar-item .sidebar-sub-item {
+  padding-left: 1rem;
+  cursor: pointer;
+}
